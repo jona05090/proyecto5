@@ -31,4 +31,4 @@ if hist2_button: #Al hacer click en el boton
     fig2 = px.scatter(car_data, x='model_year' , y = 'price')
 
     #Mostrar un grafico de plotly interactivo
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig2, use_container_width=True)
